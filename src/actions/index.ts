@@ -3,14 +3,14 @@ import { Dispatch } from 'redux';
 import { ActionTypes } from './types';
 const url = 'https://jsonplaceholder.typicode.com/photos';
 
-interface Photo {
+export interface Photo {
   id: number;
   title: string;
   url: string;
   thumbnailUrl: string;
 }
 
-interface FetchPhotosAction {
+export interface FetchPhotosAction {
   type: ActionTypes.FETCH_PHOTOS;
   payload: Photo[];
 }
