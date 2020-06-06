@@ -1,5 +1,4 @@
-import { Photo, FetchPhotosAction } from '../actions';
-import { ActionTypes } from '../actions/types';
+import { Photo, FetchPhotosAction, ActionTypes } from '../actions';
 
 export const photosReducer = (
   state: Photo[] = [],
